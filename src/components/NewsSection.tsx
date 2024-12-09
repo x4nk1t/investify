@@ -1,7 +1,6 @@
 "use client";
 import HomeCard from "./HomeCard";
 import NewsFilter from "./NewsFilter";
-import Thumbnail from "@/assets/the-express-tribute-thumbnail.jpg";
 
 import NewsIcon from "@/assets/news-icon.png";
 import TribuneIcon from "@/assets/tribune-icon.png";
