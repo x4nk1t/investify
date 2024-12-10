@@ -66,9 +66,14 @@ export default function Footer() {
               })}
             </div>
           </div>
-          <div className="flex flex-col gap-4">
-            <Image src={PlayImage} alt="Google play download image" />
-            <Image src={AppleImage} alt="Apple store download image" />
+          <div>
+            <p className="mb-4 text-primary text-base font-medium">
+              Get the app
+            </p>
+            <div className="flex flex-col gap-4">
+              <Image src={PlayImage} alt="Google play download image" />
+              <Image src={AppleImage} alt="Apple store download image" />
+            </div>
           </div>
         </div>
         <div className="pt-8 border-t-2 border-gray-200 flex justify-between">
