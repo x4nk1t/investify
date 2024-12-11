@@ -17,7 +17,7 @@ export default function NavBar() {
   ];
 
   return (
-    <nav className="flex justify-between items-center py-7">
+    <nav className="flex justify-between items-center gap-4 py-7">
       <Link href={"/"}>
         <Image src={Logo} alt="Investify Logo" />
       </Link>
@@ -29,7 +29,7 @@ export default function NavBar() {
           className="bg-transparent text-gray-400 text-sm focus:outline-none w-80"
         />
       </div>
-      <ul className="flex flex-row gap-8">
+      <ul className="hidden lg:flex flex-row gap-8">
         {navLinks.map(([title, url]) => {
           return (
             <li key={title}>
